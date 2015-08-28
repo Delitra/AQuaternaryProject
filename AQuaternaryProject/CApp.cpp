@@ -3,6 +3,7 @@
 #undef main
 
 CApp::CApp(int w, int h) {
+	window = NULL;
 	SCR_W = w;
 	SCR_H = h;
 	running = true;
