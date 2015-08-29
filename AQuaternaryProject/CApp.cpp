@@ -4,6 +4,8 @@
 
 CApp::CApp(int w, int h) {
 	window = NULL;
+	Surf_Test = NULL;
+	renderer = NULL;
 	SCR_W = w;
 	SCR_H = h;
 	running = true;

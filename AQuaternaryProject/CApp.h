@@ -3,11 +3,15 @@
 
 
 #include <sdl.h>
+#include "CSurface.h"
 
 class CApp {
 private:
 	bool running;
 	SDL_Window* window;
+	SDL_Surface* windowsurf;
+	SDL_Surface* Surf_Test;
+	SDL_Renderer* renderer;
 	int SCR_W;
 	int SCR_H;
 public:

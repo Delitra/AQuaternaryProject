@@ -33,9 +33,15 @@
     <ClCompile Include="CApp_OnCleanup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSurface.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
